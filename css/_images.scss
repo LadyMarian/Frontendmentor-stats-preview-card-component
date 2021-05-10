@@ -1,0 +1,13 @@
+.image__container {
+    background-color: $SoftViolet;
+    height: 248px;
+    
+    &__desktop {
+        display: none;
+    }
+}
+
+.header__img {
+    width: 100%;
+    mix-blend-mode: multiply;    
+}

@@ -1,0 +1,42 @@
+$VeryDarkBlue: hsl(233,47%, 7%); //main background//
+$DarkDesaturatedBlue: hsl(244, 38%, 16%); //card backgroud//
+$SoftViolet: hsl(277, 64%, 61%); //accent//
+$White: hsl(0, 0%, 100%); //main, heading, stats//
+$SlightlyTransparentWhite: hsla(0, 0%, 100%, 0.75); //main paragraph//
+$SlightlyTransparentWhiteStat: hsla(0, 0%, 100%, 0.6); //stat headings//
+
+$Inter: 'Inter', sans-serif;
+$LexendDeca: 'Lexend Deca', sans-serif;
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: $VeryDarkBlue;
+    color: $White;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    font-size: 15px;
+    font-family: $Inter;
+}
+
+.container {
+    margin-top: 6rem;
+    width: 338px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    margin: 2rem 0;
+}
+.attribution a { color: hsl(228, 45%, 44%); }
